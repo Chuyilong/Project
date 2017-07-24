@@ -1,0 +1,79 @@
+body{
+	width: 100%;
+	background-color: #FCFAF0;
+}
+header {
+    height: 80px;
+    margin-top: 40px;
+}
+.header-left{
+	float: left;
+	width: 10%;
+	padding-left: 1%;
+	margin-top: -20px;
+}
+.header-left img{
+	width: 81px;
+	height: 81px;
+}
+.header-mid{
+	width: 883px;
+	margin: 0 auto;
+}
+.header-mid h1{
+	float: left;
+	font-size: 16px;
+	font-family: helvetica;
+	margin: 15px;
+	font-weight: normal;
+	color: #394D6C;
+}
+.header-mid h1:hover{
+	font-weight: bold;
+	border-bottom: solid 3px #EEBA00;
+}
+.header-right{
+	float: right;
+	padding-right: 2%;
+}
+.header-right h1{
+	float: right;
+	font-size: 16px;
+	font-family: helvetica;
+	margin: 15px;
+	margin-right: 0;
+}
+.main-img-container{
+	float: left;
+	width: 100%;
+}
+.beer-main-img{
+	width: 90%;
+	margin: 0 auto;
+} 
+.beer-main-img img{
+	float: left;
+	width: 100%;
+}
+.container{
+	margin: 0 auto;
+	width: 960px;
+}
+.beer-1{
+	float: left;
+	width: 222px;
+	margin-right:20px: 
+}
+.beer-1 h3{
+	color: #EEBA00;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+}
+.beer-1-back{
+	width: 100%;
+	height: 450px;
+	background-image: url(images/beer-1.png);
+	background-size: cover;
+}
+
+
