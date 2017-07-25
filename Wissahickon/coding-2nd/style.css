@@ -62,12 +62,20 @@ header {
 .beer-1{
 	float: left;
 	width: 222px;
-	margin-right:20px: 
+	padding-right:24px: 
 }
+
 .beer-1 h3{
-	color: #EEBA00;
-	height: 100%;
-	background-color: rgba(0,0,0,0.6);
+    color: #EEBA00;
+    height: 65%;
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+    padding-top: 70%;
+    display: none;
+    margin: 0;
+}
+.beer-1:hover.beer-1 h3{
+	display: block;
 }
 .beer-1-back{
 	width: 100%;
@@ -76,4 +84,75 @@ header {
 	background-size: cover;
 }
 
+.beer-2{
+	float: left;
+	width: 222px;
+	padding-right:24px: 
+}
 
+.beer-2 h3{
+    color: #EEBA00;
+    height: 65%;
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+    padding-top: 70%;
+    display: none;
+    margin: 0;
+}
+.beer-2:hover.beer-2 h3{
+	display: block;
+}
+.beer-2-back{
+	width: 100%;
+	height: 450px;
+	background-image: url(images/beer-2.png);
+	background-size: cover;
+}
+.beer-3{
+	float: left;
+	width: 222px;
+	padding-right:24px: 
+}
+
+.beer-3 h3{
+    color: #EEBA00;
+    height: 65%;
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+    padding-top: 70%;
+    display: none;
+    margin: 0;
+}
+.beer-3:hover.beer-3 h3{
+	display: block;
+}
+.beer-3-back{
+	width: 100%;
+	height: 450px;
+	background-image: url(images/beer-3.png);
+	background-size: cover;
+}
+.beer-4{
+	float: left;
+	width: 222px;
+	padding-right:24px: 
+}
+
+.beer-4 h3{
+    color: #EEBA00;
+    height: 65%;
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+    padding-top: 70%;
+    display: none;
+    margin: 0;
+}
+.beer-4:hover.beer-4 h3{
+	display: block;
+}
+.beer-4-back{
+	width: 100%;
+	height: 450px;
+	background-image: url(images/beer-4.png);
+	background-size: cover;
+}
