@@ -1,186 +1,289 @@
 body{
-	background-color: #FCFAF0;
 	width: 100%;
-	margin: 0;
+	background-color: #FCFAF0;
+	font-family: helvetica;
 }
-header{
-	padding: 20px;
-	height: 70px;
-
+header {
+    height: 80px;
+    margin-top: 40px;
 }
 .header-left{
 	float: left;
-
+	width: 10%;
+	padding-left: 1%;
+	margin-top: -20px;
 }
 .header-left img{
 	width: 81px;
+	height: 81px;
 }
 .header-mid{
+	width: 883px;
 	margin: 0 auto;
-	width: 864px;
 }
-
-
 .header-mid h1{
-	font-family: helvetica;
-	font-size: 16px;
-	font-weight: normal;
-	text-align: center;
 	float: left;
+	font-size: 16px;
+	font-family: helvetica;
 	margin: 15px;
-	padding-top: 16px;
+	font-weight: normal;
 	color: #394D6C;
 }
 .header-mid h1:hover{
 	font-weight: bold;
-	border-bottom: 3px solid #EEBA00;
+	border-bottom: solid 3px #EEBA00;
+}
+.header-right{
+	float: right;
+	padding-right: 2%;
 }
 .header-right h1{
-	font-family: helvetica;
-	font-size: 16px;
 	float: right;
-	padding: 15px;
+	font-size: 16px;
+	font-family: helvetica;
+	margin: 15px;
+	margin-right: 0;
+	color: #394D6C;
+	font-weight: normal;
 }
 .main-img-container{
-	margin: 0 auto;
-	width: 80%;
-}
-.beer-main-img {
-    float: left;
-    width: 100%;
-    background: url(images/wissa-b.png) no-repeat center center;
-    height: 485px;
-    background-size: cover;
-}
-.container{
 	float: left;
 	width: 100%;
 }
-.all-content{
-	width: 960px;
+.beer-main-img{
+	width: 90%;
 	margin: 0 auto;
+} 
+.beer-main-img img{
+	float: left;
+	width: 100%;
+}
+.container{
+	margin: 0 auto;
+	width: 960px;
+}
+.beer h3{
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.5;
+}
+.beer h2{
+	font-size: 16px;
+	text-align: center;
+	color: #394D6C;
+
 }
 .beer-1{
 	float: left;
 	width: 222px;
-	margin-right: 24px;
+	margin: 8px;
 }
-.beer-1 h3 {
-    float: left;
-    background-color: rgba(0,0,0,0.6);
-    margin-top: -505px;
-    padding-bottom: 175px;
-    padding-top: 170px;
-    text-align: center;
+
+.beer-1 h3{
     color: #EEBA00;
-    font-family: helvetica;
-    width: 200px;
-    padding-left: 11px;
-    padding-right: 11px;
-    font-weight: lighter;
+    height: 65%;
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+    padding-top: 70%;
     display: none;
+    margin: 0;
 }
 .beer-1:hover.beer-1 h3{
 	display: block;
 }
-.beer-1 img{
-	width:100%;
-	float: left;
+.beer-1-back{
+	width: 100%;
 	height: 450px;
+	background-image: url(images/beer-1.png);
+	background-size: cover;
 }
+
 .beer-2{
 	float: left;
 	width: 222px;
-	margin-right: 24px;
+	margin: 8px;
+}
 
-}
-.beer-2 img{
-	width:100%;
-	float: left;
-	height: 450px;
-}
-.beer-2 h3 {
-    float: left;
-    background-color: rgba(0,0,0,0.6);
-    margin-top: -523px;
-    padding-bottom: 154px;
-    padding-top: 170px;
-    text-align: center;
+.beer-2 h3{
     color: #EEBA00;
-    font-family: helvetica;
-    width: 200px;
-    padding-left: 11px;
-    padding-right: 11px;
-    font-weight: lighter;
+    height: 65%;
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+    padding-top: 70%;
     display: none;
+    margin: 0;
 }
 .beer-2:hover.beer-2 h3{
 	display: block;
 }
+.beer-2-back{
+	width: 100%;
+	height: 450px;
+	background-image: url(images/beer-2.png);
+	background-size: cover;
+}
 .beer-3{
 	float: left;
 	width: 222px;
-	margin-right: 24px;
+	margin: 8px;
+}
 
-}
-.beer-3 img{
-	width:100%;
-	float: left;
-	height: 450px;
-}
-.beer-3 h3 {
-    float: left;
-    background-color: rgba(0,0,0,0.6);
-    margin-top: -523px;
-    padding-bottom: 217px;
-    padding-top: 170px;
-    text-align: center;
+.beer-3 h3{
     color: #EEBA00;
-    font-family: helvetica;
-    width: 200px;
-    padding-left: 11px;
-    padding-right: 11px;
-    font-weight: lighter;
+    height: 65%;
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+    padding-top: 70%;
     display: none;
+    margin: 0;
 }
 .beer-3:hover.beer-3 h3{
 	display: block;
 }
+.beer-3-back{
+	width: 100%;
+	height: 450px;
+	background-image: url(images/beer-3.png);
+	background-size: cover;
+}
 .beer-4{
 	float: left;
 	width: 222px;
+	margin: 8px;
+}
 
-}
-.beer-4 img{
-	width:100%;
-	float: left;
-	height: 450px;
-}
-.beer-4 h3 {
-    float: left;
-    background-color: rgba(0,0,0,0.6);
-    margin-top: -505px;
-    padding-bottom: 196px;
-    padding-top: 170px;
-    text-align: center;
+.beer-4 h3{
     color: #EEBA00;
-    font-family: helvetica;
-    width: 200px;
-    padding-left: 11px;
-    padding-right: 11px;
-    font-weight: lighter;
+    height: 65%;
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+    padding-top: 70%;
     display: none;
+    margin: 0;
 }
 .beer-4:hover.beer-4 h3{
 	display: block;
 }
-.beer-1 h2,.beer-2 h2, .beer-3 h2,.beer-4 h2{
-	float: left;
-    width: 100%;
-    text-align: center;
-    font-size: 16px;
-    font-family: helvetica;
-    padding-top: 10px;
-    color: #394D6C;
-    font-weight: normal;
+.beer-4-back{
+	width: 100%;
+	height: 450px;
+	background-image: url(images/beer-4.png);
+	background-size: cover;
 }
+footer {
+   /* height: 80px;*/
+    background-color: #394D6C;
+    float: left;
+    width: 100%;
+    color: #FCFAF0;
+    padding-top: 20px;
+}
+.footer-left{
+	float: left;
+	width: 10%;
+	padding-left: 1%;
+	padding-top: 100px;
+}
+.footer-left img{
+	width: 81px;
+	height: 81px;
+	float: left;
+}
+.footer-mid{
+	width: 900px;
+	margin: 0 auto;	
+}
+.footer-mid-container{
+	float: left;
+}
+.footer-mid h2 {
+    font-size: 16px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-mid h3 {
+    font-size: 16px;
+    font-weight: lighter;
+    float: left;
+    width: 93%;
+    margin: 0;
+    line-height: 2.0;
+}
+.wecanoffer{
+	float: left;
+	width: 23%;
+}
+.aboutus{
+	float: left;
+	width: 23%;
+}
+
+.contact{
+	float: left;
+	width: 54%;
+}
+.address img{
+	float: left;
+	width: 16px;
+	height: 16px;
+	padding-right: 10px;
+	margin-top: 8px;
+}
+.mail img{
+	float: left;
+	width: 21px;
+	height: 16px;
+	padding-right: 10px;
+	margin-top: 8px;
+}
+.support{
+	float: left;
+	margin-top: 20px;
+}
+.mailing-list{
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.mailing-list h4 {
+    float: left;
+    margin-right: 10px;
+}
+.mailing-list input {
+    float: left;
+    width: 200px;
+    margin-top: 16px;
+    border: #FFF 2px solid;
+    height: 24px;
+    background: transparent;
+    color: #FFF;
+    
+}
+.mailing-list h5{
+	float: left;
+	margin-left: 20px;
+}
+
+.footer-right{
+	float: right;
+	margin-top: 130px;
+}
+
+.footer-right img{
+	height: 30px;
+	padding-right: 30px;
+}
+.footer-bottom{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.footer-bottom h4 {
+    text-align: center;
+    width: 100%;
+    float: left;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+

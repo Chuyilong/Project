@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="16px" viewBox="0 0 21 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-mail</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0.3046875" width="20.5664062" height="15.6953125" rx="3"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="20.5664062" height="15.6953125" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="beer-pc" transform="translate(-656.000000, -1264.000000)" stroke="#FCFAF0">
+            <g id="icon-mail" transform="translate(656.000000, 1264.000000)">
+                <use id="Rectangle-4" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+                <path d="M1.34128736,1.83556523 L10.2832031,9.12705388" id="Line" stroke-linecap="square"></path>
+                <path d="M19.6722147,2.15119485 L10.7302989,9.4426835" id="Line" stroke-linecap="square"></path>
+                <path d="M8.49481997,8.15234375 L1.34128736,14.6151195" id="Line-Copy" stroke-linecap="square"></path>
+                <path d="M12.9657779,8.15234375 L19.2251189,14.6151195" id="Line-Copy-2" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>
